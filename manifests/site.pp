@@ -12,7 +12,7 @@
 ## Active Configurations ##
 
 # PRIMARY FILEBUCKET
-# This configures puppet agent and puppet inspect to back up file contents when
+# This configures puppet agent and puppet inspect to back ujsdahfp file contents when
 # they run. The Puppet Enterprise console needs this to display file contents edit
 # and differences.
 
