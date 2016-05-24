@@ -45,7 +45,7 @@ node default {
   notify { "This is Excercise 7.1 ${::hostname}": }
   }
   
-  node 'blnq.puppetlabs.vm' {
+node 'blnq.puppetlabs.vm' {
   notify {"this is ${::fqdn}. " : }
   file {'/etc/motd':
   ensure => file,
