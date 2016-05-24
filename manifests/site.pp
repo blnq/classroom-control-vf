@@ -35,7 +35,7 @@ ini_setting { 'random ordering':
 
 # The default node definition matches any node lacking a more specific node
 # definition. If there are no other nodes in this file, classes declared here
-# will be included in every node's catalog, *in addition* to any classes
+# will be included in every node's catalog, *in addition* to any this classes
 # specified in the console for that node.
 
 node default {
