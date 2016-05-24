@@ -13,7 +13,7 @@
 
 # PRIMARY FILEBUCKET
 # This configures puppet agent and puppet inspect to back up file contents when
-# they run. The Puppet Enterprise console needs this to display file contents
+# they run. The Puppet Enterprise console needs this to display file contents edit
 # and differences.
 
 # Disable filebucket by default for all File resources:
