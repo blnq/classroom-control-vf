@@ -43,7 +43,10 @@ node default {
   # Example:
   #   class { 'my_class': }
   notify { "This is Excercise 7.1 ${::hostname}": }
+  }
   
+  node 'blnq.puppetlabs.vm' {
+  notify {"this is ${::fqdn}. " : }
   file {'/etc/motd':
   ensure => file,
   owner => 'root',
