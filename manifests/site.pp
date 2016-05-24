@@ -49,7 +49,7 @@ node default {
   #owner => 'root',
   #group => 'root',
   #mode => '0644',
-  #content => "Copying solution for 7.1\n",
+  #content => "Copying solution for 7.1, changing this line \n",
   #}
 
   exec {"cowsay 'Welcome to ${::fqdn}!' > /etc/motd":
